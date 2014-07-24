@@ -1,0 +1,14 @@
+{
+  "name": "stream",
+  "version": "0.0.1",
+  "description": "Returning a file just cause we can.",
+  "main": "./lib/app.js",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "hapi": "^6.2.0"
+  }
+}

@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: ''
+  app: ''
+  on:
+    repo: ''

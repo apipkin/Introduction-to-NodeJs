@@ -1,0 +1,9 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/hello.js",
+  "author": "Anthony Pipkin",
+  "license": "WTFPL",
+  "dependencies": {}
+}

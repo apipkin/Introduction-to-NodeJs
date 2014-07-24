@@ -1,0 +1,28 @@
+{
+  "name": "node-web-example",
+  "version": "0.0.1",
+  "description": "Simple Hello world example",
+  "main": "./lib/app.js",
+  "scripts": {
+    "pretest": "jshint ./lib/app.js",
+    "test": "./node_modules/lab/bin/lab -c ./tests"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apipkin/node-web-example.git"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/apipkin/node-web-example/issues"
+  },
+  "homepage": "https://github.com/apipkin/node-web-example",
+  "dependencies": {
+    "hapi": "^6.2.0",
+    "jshint": "^2.5.2",
+    "lab": "^3.2.1"
+  }
+}
